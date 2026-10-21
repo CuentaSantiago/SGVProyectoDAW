@@ -18,13 +18,14 @@ body {
 header {
     background-color: #232F3E;
     color: white;
-    text-align: center;
     padding: 20px;
     font-size: 24px;
     font-weight: bold;
-    display: flex;
+    align-content: center;
+    align-items: center;
 }
-
+header>h1{
+    text-align: center;}
 p.G {
     margin-right:470px;
     margin-left:30px;
